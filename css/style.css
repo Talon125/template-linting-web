@@ -1,0 +1,7 @@
+@layer base;
+
+@layer base {
+  .base {
+    font-family: sans-serif;
+  }
+}

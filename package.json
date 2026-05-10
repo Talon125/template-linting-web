@@ -1,0 +1,34 @@
+{
+  "name": "template-linting-web",
+  "version": "1.0.0",
+  "description": "Set up linting for web projects",
+  "homepage": "https://github.com/Talon125/template-linting-web#readme",
+  "bugs": {
+    "url": "https://github.com/Talon125/template-linting-web/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Talon125/template-linting-web.git"
+  },
+  "license": "Unlicense",
+  "author": "Talon",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.9.2",
+    "standard": "^17.1.2",
+    "stylelint": "^17.11.0",
+    "stylelint-config-concentric-order": "^5.5.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^3.0.0",
+    "stylelint-high-performance-animation": "^2.0.0",
+    "stylelint-no-browser-hacks": "^2.0.3",
+    "stylelint-no-unsupported-browser-features": "^8.1.1",
+    "stylelint-plugin-defensive-css": "^2.9.1",
+    "stylelint-plugin-logical-css": "^2.1.0",
+    "stylelint-plugin-use-baseline": "^1.4.1",
+    "stylelint-value-no-unknown-custom-properties": "^6.1.1"
+  }
+}
