@@ -17,7 +17,7 @@
         "recommended": true
       },
       "complexity": {
-        "recommended":  true,
+        "recommended": true,
         "noAdjacentSpacesInRegex": "error",
         "noCommaOperator": "error",
         "noExtraBooleanCast": "error",
@@ -139,7 +139,7 @@
     "attributePosition": "auto",
     "bracketSameLine": false,
     "bracketSpacing": true,
-    "expand": "always",
+    "expand": "auto",
     "trailingNewline": true,
     "useEditorconfig": true
   },
@@ -154,10 +154,10 @@
       "operatorLinebreak": "after"
     },
     "linter": {
-      "enabled": false
+      "enabled": true
     },
     "assist": {
-      "enabled": false
+      "enabled": true
     }
   },
   "json": {
@@ -166,25 +166,25 @@
       "allowTrailingCommas": true
     },
     "formatter": {
-      "enabled": false
+      "enabled": true
     },
     "linter": {
-      "enabled": false
+      "enabled": true
     },
     "assist": {
-      "enabled": false
+      "enabled": true
     }
   },
   "css": {
     "formatter": {
-      "enabled": false,
+      "enabled": true,
       "quoteStyle": "single"
     },
     "linter": {
-      "enabled": false
+      "enabled": true
     },
     "assist": {
-      "enabled": false
+      "enabled": true
     }
   },
   "html": {
@@ -196,10 +196,10 @@
       "selfCloseVoidElements": "never"
     },
     "linter": {
-      "enabled": false
+      "enabled": true
     },
     "assist": {
-      "enabled": false
+      "enabled": true
     }
   }
 }
