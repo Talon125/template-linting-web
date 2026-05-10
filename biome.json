@@ -41,21 +41,34 @@
 				"useIsNan": "error",
 				"useValidTypeof": "error"
 			},
+			"nursery": {
+				"noFloatingClasses": "error",
+				"noImpliedEval": "error",
+				"noMultiStr": "error",
+				"noProto": "error",
+				"noReturnAssign": "error",
+				"noUselessReturn": "error",
+				"useImportsFirst": "error"
+			},
 			"security": { "noGlobalEval": "error" },
 			"style": {
 				"noYodaExpression": "error",
 				"useArrayLiterals": "error",
 				"useBlockStatements": "error",
 				"useConsistentBuiltinInstantiation": "error",
+				"useConsistentObjectDefinitions": "warn",
 				"useConst": "error",
 				"useSingleVarDeclarator": "error",
-				"useSymbolDescription": "error"
+				"useSymbolDescription": "error",
+				"useThrowOnlyError": "error"
 			},
 			"suspicious": {
+				"noAssignInExpressions": "error",
 				"noAsyncPromiseExecutor": "error",
 				"noCatchAssign": "error",
 				"noClassAssign": "error",
 				"noCompareNegZero": "error",
+				"noConfusingLabels": "error",
 				"noControlCharactersInRegex": "error",
 				"noDebugger": "error",
 				"noDoubleEquals": "error",
