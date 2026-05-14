@@ -14,22 +14,26 @@
   "author": "Talon",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "biome check --unsafe --fix && eslint --fix .",
+    "lint:check": "biome check --unsafe && eslint ."
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.15",
+    "eslint": "^9.39.4",
+    "eslint-config-biome": "^2.1.3",
     "htmlhint": "^1.9.2",
-    "standard": "^17.1.2",
-    "stylelint": "^17.11.0",
+    "neostandard": "^0.13.0",
+    "stylelint": "^17.11.1",
     "stylelint-config-concentric-order": "^5.5.0",
     "stylelint-config-standard": "^40.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^3.0.0",
     "stylelint-high-performance-animation": "^2.0.0",
     "stylelint-no-browser-hacks": "^2.0.3",
     "stylelint-no-unsupported-browser-features": "^8.1.1",
-    "stylelint-plugin-defensive-css": "^2.9.1",
+    "stylelint-plugin-defensive-css": "^2.9.2",
     "stylelint-plugin-logical-css": "^2.1.0",
-    "stylelint-plugin-use-baseline": "^1.4.1",
+    "stylelint-plugin-use-baseline": "^1.4.2",
     "stylelint-value-no-unknown-custom-properties": "^6.1.1"
   }
 }
